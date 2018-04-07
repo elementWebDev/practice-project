@@ -1,3 +1,4 @@
+</div><!-- /.container -->
 <footer>
     <div class="container">
 
@@ -10,9 +11,7 @@
             print_r2($client);
             */
         ?>
-        <p class="credits">
-            <?php echo '&copy;' . date('Y') . ' Ivan Huddleston'; ?>
-        </p>
+        <p class="credits"><?php echo '&copy;' . date('Y') . ' Ivan Huddleston'; ?></p>
     </div><!-- /.container>
 </footer>
 </body>
