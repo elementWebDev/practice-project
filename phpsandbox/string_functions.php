@@ -59,12 +59,22 @@
     $output = str_replace('World', 'Everyone', $text);
     echo $output;
 */
+<<<<<<< HEAD
 /*
     # is_string()
     # Check if string
     //$val = 'Hello';
     //$output = is_string($val);
     //echo $output;
+=======
+    # is_string()
+    # Check if string
+
+    $val = 'Hello';
+    $output = is_string($val);
+
+    echo $output;
+>>>>>>> 9dbb007fcd56800d2cf906165a5ff68c7752f94d
 
     $values = array(true, false, null, 'abc', 33, '33', 22.4, '22.4', '', ' ', '-');
 
@@ -73,6 +83,7 @@
             echo "{$value} is a string<br>";
         }
     }
+<<<<<<< HEAD
 */
     # gzcompress()
     # Compress a string
@@ -86,6 +97,8 @@
 
     $original = gzuncompress($compressed);
     echo '<br><br><br>'.$original;
+=======
+>>>>>>> 9dbb007fcd56800d2cf906165a5ff68c7752f94d
 ?>
 
 

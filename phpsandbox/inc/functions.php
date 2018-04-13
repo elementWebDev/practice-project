@@ -3,10 +3,13 @@
     # DEBUGGING #
     #############
 
+<<<<<<< HEAD
     # page refresh
     $page = $_SERVER['PHP_SELF'];
     $sec = "100";
 
+=======
+>>>>>>> 9dbb007fcd56800d2cf906165a5ff68c7752f94d
     # readable format
     function print_r2($val){
         echo '<pre>';
@@ -19,6 +22,7 @@
         echo $val.'<br>';
     }
 
+<<<<<<< HEAD
     # title
     switch ($page) {
         case '/phpsandbox/website3/index.php':
@@ -41,4 +45,9 @@
             break;
 */
 }
+=======
+    # page refresh
+    $page = $_SERVER['PHP_SELF'];
+    $sec = "10";
+>>>>>>> 9dbb007fcd56800d2cf906165a5ff68c7752f94d
 ?>
