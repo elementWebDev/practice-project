@@ -1,4 +1,9 @@
-# TODO
+# Project Scope / ToDo's
+
+
+## Single Product
+
+![Jan 24](1-24.png)
 
 ## Categories
 
@@ -6,9 +11,6 @@
 
 <!-- ![Feb 6](2-6.png) -->
 
-## Product
-
-![Jan 24](1-24.png)
 
 ## Features
 
@@ -25,7 +27,7 @@
   - [ ] banners
     - [ ] Holiday Sales
   - [ ] Categories (use search in Product_Category)
-    - [ ] Pool Cues 
+    - [ ] Pool Cues
     - [ ] Cue Cases
     - [ ] Cue Accessories
     - [ ] Table Accessories
@@ -33,7 +35,7 @@
     - [ ] Gameroom
     - [ ] Darts
     - [ ] Clothing
- 
+
 ---
 
 ```
