@@ -22,21 +22,18 @@
 
 ## Images ( non-stock Production Ready )
 
-  - [ ] banners
-    - [ ] Holiday Sales
-  - [ ] Categories (use search in Product_Category)
-    - [ ] Pool Cues 
-    - [ ] Cue Cases
-    - [ ] Cue Accessories
-    - [ ] Table Accessories
-    - [ ] Training Aids
-    - [ ] Gameroom
-    - [ ] Darts
-    - [ ] Clothing
- 
+- [ ] banners
+  - [ ] Holiday Sales
+- [ ] Categories (use search in Product_Category)
+  - [ ] Pool Cues
+  - [ ] Cue Cases
+  - [ ] Cue Accessories
+  - [ ] Table Accessories
+  - [ ] Training Aids - [ ] Gameroom - [ ] Darts - [ ] Clothing
+
 ---
 
-```
+```js
 products.findIndex(x => x.Parent_Sku === 'ZZSP'); // 3896
 
 findProductByParentSku (product) {
@@ -51,13 +48,13 @@ console.log(JSON.stringify(product));
 
 ## Navigation
 
-  - [ ] Home
-    - [ ] Category
-      - [ ] Pool Cues
+- [ ] Home
+  - [ ] Category
+    - [ ] Pool Cues
 
-```
+```js
 cues = [
-    5280,
+    "5280",
     Action,
     Athena,
     Blade,
@@ -102,4 +99,3 @@ cues = [
 - [ ] byRewards
 
 ---
-
