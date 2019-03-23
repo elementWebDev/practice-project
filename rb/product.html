@@ -438,7 +438,8 @@
                 </div>
                 <!-- <p>{{ products.find(x => x.id === 'ZZSP').Parent_Sku }}</p> -->
                 <!-- <p>{{ products.filter(x => x.id === 'ZZSP').map(x => x.Parent_Sku) }}</p> -->
-                <a href="#vertical" target="_self">
+								<button @click="getSingle">get single product</button>
+								<a href="#vertical" target="_self">
                   <img src="img/large/zzsp.jpg" class="cue-img" alt="ZZSP" />
                 </a>
 
@@ -526,6 +527,7 @@
 	<!-- TODO: -->
     <div id="similar-products">
 		<h3>Similar Products</h3>
+		
 		<!-- <span>{{ randomProduct }}</span>
 		<span>{{ }}</span>
 		<span>{{ }}</span>
@@ -554,7 +556,7 @@
       </div>
       <p>&copy;2019 RackBusters Billiards</p>
     </footer>
-<script src="js/functions.js"></script>
+<!-- <script src="js/functions.js"></script> -->
     <!-- scripts -->
     <script src="js/jquery-3.3.1.js"></script>
 
